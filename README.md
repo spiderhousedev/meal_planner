@@ -2,6 +2,9 @@
 
 ```
 npx expo start
+
+
+
 ```
 
 ## Problem 
