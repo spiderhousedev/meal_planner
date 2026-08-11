@@ -1,16 +1,21 @@
-import { Text, Pressable } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
 import { router } from "expo-router";
-import { Link } from "expo-router";
+import { Pressable, Text } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
-export default function HomeScreen() {
+export default function Index() {
   return (
     <SafeAreaView style={{ flex: 1, padding: 20 }}>
-      <Text>Home Screen</Text>
+      <Text style={{ fontSize: 32, fontWeight: "700" }}>
+        MealMates
+      </Text>
 
-      <Link href="/second">
-        Go to second screen
-      </Link>
+      <Pressable onPress={() => router.push("/login")}>
+        <Text>Log in</Text>
+      </Pressable>
+
+      <Pressable onPress={() => router.push("/register")}>
+        <Text>Create account</Text>
+      </Pressable>
     </SafeAreaView>
   );
 }
