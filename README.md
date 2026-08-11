@@ -1,5 +1,9 @@
 # Meal Planner Project
 
+```
+npx expo start
+```
+
 ## Problem 
 I'm currently using iphone text messages to buy the correct shopping ingredients at the shops, sent to me by my partner. 
 
@@ -73,3 +77,5 @@ Trello:
 
 - Easier to breakdown and visually see the workload during each stage of design to development
 ```
+
+
